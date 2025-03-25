@@ -1,0 +1,50 @@
+.price_Container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.cardContent{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cardContent:hover{
+    border: 2px #9CDBFF solid;
+}
+.cardContent .btn{
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+.cardContent .btn:hover{
+    border: 2px whitesmoke solid;
+    background-color: #9CDBFF;
+    color: black;
+    font-weight: bold;
+}
+.cardContent .plan_name, .plan_price{
+    font-weight: bold;
+    padding: 5px;
+}
+.price_wrapper{
+    display: flex;
+    align-items: baseline;
+}
+.plan_price{
+    font-size: 30px;
+}
+.cardContent .plan_feature{
+    font-weight: lighter;
+    padding: 10px;
+
+}

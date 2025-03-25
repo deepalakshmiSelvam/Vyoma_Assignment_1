@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .Hero_Container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+  .Hero_Container .content {
+    width: 50%;
+    line-height: 1.5; 
+    margin: 5px 15px;
+  }
+  .Hero_Container h1{
+    font-size: 58px;
+  }
+  .Hero_Container p {
+    font-size: 18px;
+    color: #D1D5DB;
+  }
+  .Hero_Container button{
+    height: 48px;
+    width: 180px !important;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 16px;
+    outline: none;
+    border: none;
+  }
+  .Hero_Container button:hover{
+    background-color: #5FA3F7;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+  }
